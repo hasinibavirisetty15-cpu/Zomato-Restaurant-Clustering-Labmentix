@@ -21,11 +21,11 @@ python -m pip install pandas numpy matplotlib seaborn scikit-learn scipy vaderSe
 jupyter notebook Zomato_Restaurant_Clustering_Labmentix.ipynb
 ```
 
-The notebook was run end to end with the two supplied CSV files. It loaded 10,000 review rows and 105 metadata rows, matched 100 restaurants, completed the charts, sentiment analysis, hypothesis tests, and clustering comparisons, and selected K=3 from the tested candidate values using silhouette score. The current run reports silhouette score 0.5839 and final cluster sizes 19 / 79 / 2. Re-run the notebook to recalculate outputs for your environment.
+The notebook was run end to end with the two supplied CSV files. It loaded 10,000 review rows and 105 metadata rows, matched 100 restaurants, completed the charts, sentiment analysis, hypothesis tests, and clustering comparisons, and selected K=3 from the tested candidate values using silhouette score. The corrected run reports silhouette score 0.4673 and final cluster sizes 24 / 74 / 2. Re-run the notebook to recalculate outputs for your environment.
 
 ## Interpreting the clusters
 
-K-Means does not balance cluster sizes. The two-restaurant cluster is a small, distinct profile in this sample, not evidence of a broad market segment. The notebook explains the earlier saved 24 / 74 / 2 split and reports the fresh, reproducible 19 / 79 / 2 result. Treat the smallest group as exploratory and validate it with more data before making business decisions.
+K-Means does not balance cluster sizes. The two-restaurant cluster is a small, distinct profile in this sample, not evidence of a broad market segment. The final run uses only the three original input features and reports a 24 / 74 / 2 split. A prior exploratory rerun included earlier cluster labels by mistake; that leakage has been removed. Treat the smallest group as exploratory and validate it with more data before making business decisions.
 
 ## Limitations
 
@@ -38,4 +38,5 @@ K-Means does not balance cluster sizes. The two-restaurant cluster is a small, d
 ## Repository
 
 [GitHub repository](https://github.com/hasinibavirisetty15-cpu/Zomato-Restaurant-Clustering-Labmentix)
+
 
