@@ -40,3 +40,6 @@ K-Means does not balance cluster sizes. The two-restaurant cluster is a small, d
 
 [GitHub repository](https://github.com/hasinibavirisetty15-cpu/Zomato-Restaurant-Clustering-Labmentix)
 
+## Video presentation
+
+[Watch the project presentation](https://drive.google.com/file/d/1MH-p1jvdEL5eyrj9_YGB6KJKWB1R4KWW/view?usp=sharing)
